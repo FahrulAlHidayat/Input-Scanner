@@ -1,0 +1,28 @@
+package pemabayaran;
+    import java.util.Scanner;
+public class Pemabayaran {
+
+    public static void main(String[] args) {
+        String nama, asal;
+        int ukt;
+        Scanner Input = new Scanner( System.in);
+        
+        System.out.println("Pendataan UKT Mahasiswa");
+        System.out.println("Nama Mahasiswa = ");
+        nama = Input.nextLine();
+        
+        System.out.println("Asal = ");
+        asal = Input.nextLine();
+        
+        System.out.println("UKT = ");
+        ukt = Input.nextInt();
+        
+        System.out.println("---------------------");
+        System.out.println("Nama Mahasiswa = " + nama);
+        System.out.println("Asal = " + asal);
+        System.out.println("UKT = Rp " + ukt);
+        
+        
+        
+    }
+}
